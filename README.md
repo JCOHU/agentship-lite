@@ -1,6 +1,7 @@
 # AgentShip Lite
 
 **A free, open-source Next.js 16 + Supabase starter built to be extended by AI coding agents.**
+*By [Sortie Labs](https://joshuaquill80.gumroad.com/l/yofswq) — small studio shipping tools for people who build with AI.*
 
 You're going to build your SaaS by prompting Claude Code, Cursor, or another agent anyway.
 Generic starters fight that — undocumented conventions, security rules that live in the
