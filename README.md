@@ -33,8 +33,17 @@ Stripe billing and the billing playbooks are in **[AgentShip Pro →](https://jo
 1. `npm install && cp .env.example .env.local`
 2. Create a free Supabase project → paste URL + anon key into `.env.local` → run
    `supabase/migrations/0001_profiles.sql` in the SQL editor → enable Email (magic link).
-3. `npm run dev`, sign in at `/login`, land on the protected `/dashboard`.
-4. Ship: `vercel` (add the same env vars in Vercel).
+3. **Fix the magic-link email template** (don't skip): Authentication → Email Templates →
+   *Magic Link* → change the link to
+   ```
+   {{ .SiteURL }}/auth/callback?token_hash={{ .TokenHash }}&type=email
+   ```
+   The default `{{ .ConfirmationURL }}` uses a PKCE code that only works in the same browser
+   that requested it — users who tap the email on their phone (or whose mail app opens an
+   in-app browser) get bounced back to the login screen. The `token_hash` link works anywhere.
+4. `npm run dev`, sign in at `/login`, land on the protected `/dashboard`. To properly test
+   the magic link, open it in a *different* browser than the one you requested it from.
+5. Ship: `vercel` (add the same env vars in Vercel).
 
 ## Why "agent-ready"?
 
