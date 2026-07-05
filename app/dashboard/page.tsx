@@ -40,7 +40,7 @@ export default async function DashboardPage() {
           AgentShip Pro adds subscription checkout, a signature-verified webhook, plan gating,
           and the full set of agent playbooks.{" "}
           <a
-            href="https://joshuaquill80.gumroad.com/l/yofswq"
+            href="https://sortielabs.gumroad.com/l/yofswq"
             className="text-zinc-900 underline underline-offset-2"
             target="_blank"
             rel="noopener"

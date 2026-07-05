@@ -8,7 +8,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 You are working in AgentShip Lite, a Next.js 16 + Supabase SaaS starter designed for
 AI-agent development. (Stripe billing, the billing playbooks, and the service-role webhook
-live in AgentShip Pro — https://joshuaquill80.gumroad.com/l/yofswq.) Follow these rules exactly.
+live in AgentShip Pro — https://sortielabs.gumroad.com/l/yofswq.) Follow these rules exactly.
 
 ## After EVERY change
 Run `./scripts/verify.sh`. It typechecks, lints, and builds. Do not report a task as done

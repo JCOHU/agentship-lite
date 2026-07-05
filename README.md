@@ -1,14 +1,14 @@
 # AgentShip Lite
 
 **A free, open-source Next.js 16 + Supabase starter built to be extended by AI coding agents.**
-*By [Sortie Labs](https://joshuaquill80.gumroad.com/l/yofswq) — small studio shipping tools for people who build with AI.*
+*By [Sortie Labs](https://sortielabs.gumroad.com/l/yofswq) — small studio shipping tools for people who build with AI.*
 
 You're going to build your SaaS by prompting Claude Code, Cursor, or another agent anyway.
 Generic starters fight that — undocumented conventions, security rules that live in the
 founder's head, no way for the agent to check its own work. AgentShip is structured for it.
 
 This is the **free Lite edition**: auth, database, and the full agent-readiness layer.
-Stripe billing and the billing playbooks are in **[AgentShip Pro →](https://joshuaquill80.gumroad.com/l/yofswq)**.
+Stripe billing and the billing playbooks are in **[AgentShip Pro →](https://sortielabs.gumroad.com/l/yofswq)**.
 
 ## What's inside
 
@@ -26,7 +26,7 @@ Stripe billing and the billing playbooks are in **[AgentShip Pro →](https://jo
 | **"Add a paid plan" + "webhook event" playbooks** | — | ✅ |
 | **Commercial license (unlimited client projects)** | MIT | ✅ |
 
-**[Get AgentShip Pro — $99 →](https://joshuaquill80.gumroad.com/l/yofswq)**
+**[Get AgentShip Pro — $99 →](https://sortielabs.gumroad.com/l/yofswq)**
 
 ## Quickstart (~15 min)
 
