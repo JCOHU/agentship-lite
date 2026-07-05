@@ -10,6 +10,9 @@ founder's head, no way for the agent to check its own work. AgentShip is structu
 This is the **free Lite edition**: auth, database, and the full agent-readiness layer.
 Stripe billing and the billing playbooks are in **[AgentShip Pro →](https://sortielabs.gumroad.com/l/yofswq)**.
 
+> ⭐ **If this saves you time, star the repo** — it helps other builders find it.
+> New to building with agents? Read the guides: [build an MCP server in TypeScript](https://sortielabs.com/guides/build-mcp-server-typescript) · [a Next.js SaaS an agent can extend](https://sortielabs.com/guides/nextjs-saas-boilerplate-ai-agents).
+
 ## What's inside
 
 | | Lite (free) | Pro |
